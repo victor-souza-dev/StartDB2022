@@ -1,0 +1,25 @@
+{
+  "name": "startdb-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbserver/startdb-2022/issues"
+  },
+  "homepage": "https://github.com/dbserver/startdb-2022#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
