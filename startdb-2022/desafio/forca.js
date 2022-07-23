@@ -104,11 +104,9 @@ class Forca {
 
   buscarDadosDoJogo() {
     return `
-    \n
-    Letras Chutadas: ${this.kickedLetters}\n
-    Vida: ${this.lifes}\n
+    Letras Chutadas: ${this.kickedLetters}
+    Vida: ${this.lifes}
     Palavra: ${primaryLetterUpperCase(this.camouflagedWord)}
-    \n
     `;
   }
 }
