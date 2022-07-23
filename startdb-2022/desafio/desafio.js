@@ -1,7 +1,8 @@
 const readline = require('readline-sync');
+const Palavras = require('./baseDeDadosPalavras');
 const Forca = require('./forca');
 
-const jogo = new Forca('Abacaxi');
+const jogo = new Forca(Palavras());
 
 while (!['perdeu', 'ganhou'].includes(jogo.buscarEstado())) {
   const chute = readline.question('Aguardando chute: \n');
